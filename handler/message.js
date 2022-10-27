@@ -701,7 +701,7 @@ module.exports = async (sock, msg) => {
                                 image: {
                                     url: img
                                 },
-                                caption: "Ruka~"
+                                caption: "🤖 𝐃𝐒𝐂-𝐑𝐔-𝐁𝐎𝐓 🍃"
                             }, {
                                 quoted: msg
                             }
