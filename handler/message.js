@@ -1,3 +1,7 @@
+// if you are not good in js
+// please do not edit a damn shit
+// 🤖 𝐃𝐒𝐂-𝐑𝐔-𝐁𝐎𝐓 🍃
+
 const {
     WASocket,
     proto,
@@ -47,7 +51,7 @@ const {
     Sticker,
     StickerTypes
 } = require('wa-sticker-formatter')
-const error = 'https://www.linkpicture.com/q/IMG-20220118-WA0387.png'
+const error = 'https://i.imgur.com/TMdJIaW.jpeg'
 const {
     Database
 } = require('quickmongo');
@@ -59,7 +63,7 @@ const color = (text, color) => {
 }
 
 db.on("ready", () => {
-    console.log("Connected to the database");
+    console.log("Connected to the database🍃");
 });
 
 Array.prototype.random = function () {
