@@ -1,3 +1,6 @@
+// If you are not good in js.
+// pls do not edit a damn shit.
+// 🤖 𝐃𝐒𝐂-𝐑𝐔-𝐁𝐎𝐓 🍃
 const {
     default: WASocket,
     fetchLatestBaileysVersion,
