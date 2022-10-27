@@ -2,10 +2,10 @@
 
 <div align='center'>
 <img src="https://i.imgur.com/OGAEtPt.jpeg" 
-     width="200" 
+     width="300" 
      height="200" />
 
-<h2> DSC-RU-BOT </h2><be>
+<h3> 🤖 𝐃𝐒𝐂-𝐑𝐔-𝐁𝐎𝐓 🍃 </h3><be>
   
 <a href='https://github.com/dscrongo/DSC-RU-BOT/blob/master/LICENSE'>
   
