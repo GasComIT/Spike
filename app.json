@@ -1,0 +1,58 @@
+{
+  "name": "DSC-RU-BOT",
+  "description": "whatsapp multi device bot by Rongo University students build with nodejs on baileys",
+  "repository": "https://github.com/dscrongo/DSC-RU-BOT/",
+  "logo": "https://i.pinimg.com/736x/0c/40/6f/0c406fedb370bd7bad456202d5cccd3b.jpg",
+  "keywords": ["nodejs", "bot","Rongo","whatsapp bot", "whatsapp automation", "multi device"],
+   "success_url": "/",
+  "env": {
+    "PORT": {
+    "description": "Port of your bot",
+     "required": true
+    },
+    "NAME": {
+    "description": "Name for your bot",
+    "required": true
+    },
+    "PREFIX": {
+    "description": "Set the prefix",
+    "required": true
+    },
+    "MODS": {
+    "description": "Set the mods of the bot. Please use @s.whatsapp.net at the end and use , if u r adding multiple numbers. Ex: 254718241545@s.whatsapp.net, 254xxxxxxxx@s.whatsapp.net",
+    "required": true
+    },
+    "APPNAME": {
+     "description": "It will throw a get request to your app every 5 minutes interval.",
+     "required": true 
+    },
+    "PASSWORD": {
+     "description": "Password to deploy this bot, ivailable in GDSC chats (Royce)",
+     "required": true 
+    },
+    "MONGODB": {
+     "description": "A secret String for Mongodb Connection.(Required)",
+     "required": true 
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/ItsJimi/heroku-buildpack-pm2"
+    }
+  ],
+   "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
