@@ -71,7 +71,7 @@ MODS=254700xxxxxx
 - 💝 Built with [Baileys](https://github.com/adiwajshing/baileys) (The Best WhatsApp Library Out There) 
 
 ### WhatsApp Group
- [![Join Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send/?phone=254718241545&text&type=phone_number&app_absent=0)
+ [![Join Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/BDPCLLGB9pDB67vHn956rL)
 
 ## 💪 Contribution
 
