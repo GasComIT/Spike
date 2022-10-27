@@ -2,12 +2,12 @@
   "name": "DSC-RU-BOT",
   "description": "whatsapp multi device bot by Rongo University students build with nodejs on baileys",
   "repository": "https://github.com/dscrongo/DSC-RU-BOT/",
-  "logo": "https://i.pinimg.com/736x/0c/40/6f/0c406fedb370bd7bad456202d5cccd3b.jpg",
+  "logo": "https://i.imgur.com/GlcMZPx.jpeg",
   "keywords": ["nodejs", "bot","Rongo","whatsapp bot", "whatsapp automation", "multi device"],
    "success_url": "/",
   "env": {
     "PORT": {
-    "description": "Port of your bot",
+    "description": "Port of your bot 8080",
      "required": true
     },
     "NAME": {
@@ -15,7 +15,7 @@
     "required": true
     },
     "PREFIX": {
-    "description": "Set the prefix",
+    "description": "Set the prefix #",
     "required": true
     },
     "MODS": {
