@@ -51,7 +51,7 @@ Please use normal WhatsApp don't use any modified WhatsApp or business WhatsApp
 ```js
 PREFIX=#
 NAME=DSC-RU-BOT
-MONGO_URI=mongodb://user:password@localhost:27017/test
+MONGODB=mongodb://user:password@localhost:27017/test
 MODS=254700xxxxxx
 ```
 - Then open terminal 
