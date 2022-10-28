@@ -317,7 +317,8 @@ module.exports = async (sock, msg) => {
         
     }
     break
-    case "githubsearch": {
+    case "githubsearch":
+    case "github": {
         if (!text) {
             reply('Provide a search term!')
             return;
@@ -668,7 +669,8 @@ module.exports = async (sock, msg) => {
         }
     }
     break
-    case "imagesearch": {
+    case "imagesearch":
+    case "img": {
         if (!text) {
             reply('Provide a search term!')
             return;
@@ -1546,7 +1548,8 @@ URL:~> ${con.content_urls.mobile.page}
         await sock.groupParticipantsUpdate(from, [user], 'promote')
     }
     break
-    case "hornycard": {
+    case "hornycard":
+    case "hc": {
         try {
             user = msg.message.extendedTextMessage.contextInfo.participant || mentioned[0] || undefined
         } catch {
@@ -1608,7 +1611,7 @@ URL:~> ${con.content_urls.mobile.page}
         try {
             reply(`👋 Hi ${senderName}, I'm ${name}_[ *Rongo Uni-Bot* ] ♡! 
 
-💡 PREFIX:~> ${prefix}
+💡 PREFIX:~> ${prefix} Made with ❤ by DSC
 
             🤖 *Command List* 🤖
 
@@ -1617,10 +1620,10 @@ URL:~> ${con.content_urls.mobile.page}
 ~> \`\`\`ban, unban, bc\`\`\`\
 \n\n🖥 *General*:-
 
-~> \`\`\`hi, delete, leaderboard\`\`\`\
+~> \`\`\`hi, delete, leaderboard, lb\`\`\`\
 \n\n👤 *User*:-
 
-~> \`\`\`profile, rank\`\`\`\
+~> \`\`\`profile, rank, check\`\`\`\
 \n\n📽 *Media*:-
 
 ~> \`\`\`ytsearch, play, ytaudio, lyrics, ytvideo\`\`\`\
@@ -1632,13 +1635,13 @@ URL:~> ${con.content_urls.mobile.page}
 ~> \`\`\`anime, aid, charid, neko, character, pokemon, haigusha, waifu\`\`\`\
 \n\n🖇 *Utils*:-
 
-~> \`\`\`githubsearch, google, upload, imagesearch, define, wikipedia, gify, sticker, image, subreddit\`\`\`\
+~> \`\`\`githubsearch, github, google, upload, imagesearch, img, define, wikipedia, gify, sticker, image, subreddit, sr\`\`\`\
 \n\n📛 *Moderation*:-
 
 ~> \`\`\`event, antilink, nsfw, remove, ping, open, close, promote, demote\`\`\`\
 \n\n📗 *Note*~> Calls and spamming in bot’s 🤖 Dm will cause a ban so be aware
 \nSupport us by following us on GitHub:
-\nhttps://github.com/iamherok
+\nhttps://github.com/DSCRongo
 `)
             return;
         } catch (e) {
