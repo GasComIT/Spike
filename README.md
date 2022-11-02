@@ -5,7 +5,7 @@
      width="300" 
      height="200" />
 
-<h3> 🤖 𝐃𝐒𝐂-𝐑𝐔-𝐁𝐎𝐓 🍃 </h3><be>
+<h3> 🤖 𝐒𝐏𝐈𝐊𝐄🍃 </h3><be>
   
 <a href='https://github.com/dscrongo/DSC-RU-BOT/blob/master/LICENSE'>
   
