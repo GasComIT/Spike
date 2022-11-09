@@ -5,11 +5,11 @@
      width="300" 
      height="200" />
 
-<h3> 🤖 𝐒𝐏𝐈𝐊𝐄🍃 </h3><be>
+<h3> ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ 🍃 </h3><be>
   
-<a href='https://github.com/dscrongo/DSC-RU-BOT/blob/master/LICENSE'>
+<a href='https://github.com/github.com/GasComIT/spike/blob/master/LICENSE'>
   
-<img src='https://img.shields.io/github/license/dscrongo/DSC-RU-BOT?color=white&style=for-the-badge'>
+<img src='https://img.shields.io/github/license/github.com/GasComIT/spike?color=white&style=for-the-badge'>
   
 </a>
 
@@ -31,7 +31,7 @@ src="https://img.shields.io/badge/-Node.js-3C873A?style=flat&logo=Node.js&logoCo
   
 ## Heroku Deploy
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dscrongo/DSC-RU-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/github.com/GasComIT/spike)
 
 Please use normal WhatsApp don't use any modified WhatsApp or business WhatsApp 
 </div>
@@ -50,15 +50,15 @@ Please use normal WhatsApp don't use any modified WhatsApp or business WhatsApp
 
 ```js
 PREFIX=#
-NAME=DSC-RU-BOT
+NAME=spike
 MONGODB=mongodb://user:password@localhost:27017/test
 MODS=254700xxxxxx
 ```
 - Then open terminal 
 
 ```bash
-> git clone https://github.com/dscrongo/DSC-RU-BOT
-> cd DSC-RU-BOT
+> git clone https://github.com/github.com/GasComIT/spike
+> cd Spike
 > npm install  
 > npm start
 ```
@@ -69,11 +69,11 @@ MODS=254700xxxxxx
 - 💛 Event-Based 
 - 💚 Powered by [ExpressJs](https://expressjs.com/)
 - 💝 Built with [Baileys](https://github.com/adiwajshing/baileys) (The Best WhatsApp Library Out There) 
-
+- ⭕ youtube.com/@krakinzlab
 ### WhatsApp Group
-- 🚷 NOTICE ⚠ If you dont belong to Rongo University, please don't join this group, I will definetly kick you out.
+- 
 
- [![Join Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/BDPCLLGB9pDB67vHn956rL)
+ [![Join Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/D9gPfFXQq2lGL77meDgd8h)
 
 ## 💪 Contribution
 
@@ -82,6 +82,6 @@ MODS=254700xxxxxx
 
  ## 📃 License
 
- DSC-RU-BOT is free and open-source software licensed under the [GNU Affero General Public License v3.0](https://github.com/dscrongo/DSC-RU-BOT/blob/master/LICENSE).
+ DSC-RU-BOT is free and open-source software licensed under the [GNU Affero General Public License v3.0](https://github.com/github.com/GasComIT/spike/blob/master/LICENSE).
 
-###### 🤖 𝐃𝐒𝐂-𝐑𝐔-𝐁𝐎𝐓 🍃
+###### 🤖 ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ 🍃
