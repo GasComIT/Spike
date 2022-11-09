@@ -1,4 +1,15 @@
-const { Chat, Contact, BaileysEventEmitter } = require('@adiwajshing/baileys')
+//┌╔════『 🎐𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧🎐 』══════
+//│║⦁ 𝐧𝐚𝐦𝐞:𝐒𝐩𝐢𝐤𝐞 🍃
+//│║⦁ whatsapp gaming userbot with automation,moderation,music, fun and 100+ commands!
+//│║⦁ 𝐠𝐩𝐚𝐲: +254718241545
+//│║⦁ 𝐮𝐩𝐢: krakinzlab@oksbi
+//│║⦁ 𝐠𝐢𝐭: github.com/GasComIT
+//│║⦁ 𝐠𝐫𝐨𝐮𝐩: spike.gascomit.repl.co
+//│║⭕ youtube.com/@krakinzlab
+// ╚═════════════════════ 🍃
+// ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞
+// ⭕ youtube.com/channel/UCBsVizIDS4GCz90DQvkjNxAconst { Chat, Contact, BaileysEventEmitter } = require('@adiwajshing/baileys')
+
 const KeyedDB = require('@adiwajshing/keyed-db').default
 
 /**
@@ -138,3 +149,15 @@ const readFromFile = (path) => {
 }
 
 module.exports = { chats, contacts, bind, writeToFile, readFromFile }
+
+//┌╔════『 🎐𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧🎐 』════
+//│║⦁ 𝐧𝐚𝐦𝐞:𝐒𝐩𝐢𝐤𝐞 🍃
+//│║⦁ whatsapp gaming userbot with automation,moderation,music, fun and 100+ commands!
+//│║⦁ 𝐠𝐩𝐚𝐲: +254718241545
+//│║⦁ 𝐮𝐩𝐢: krakinzlab@oksbi
+//│║⦁ 𝐠𝐢𝐭: github.com/GasComIT
+//│║⦁ 𝐠𝐫𝐨𝐮𝐩: spike.gascomit.repl.co
+//│║⭕ youtube.com/@krakinzlab
+// ╚═════════════════════ 🍃
+// ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞
+// ⭕ youtube.com/channel/UCBsVizIDS4GCz90DQvkjNxA
