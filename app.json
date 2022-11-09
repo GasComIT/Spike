@@ -1,9 +1,9 @@
 {
-  "name": "DSC-RU-BOT",
-  "description": "whatsapp multi device bot by Rongo University students build with nodejs on baileys",
-  "repository": "https://github.com/dscrongo/DSC-RU-BOT/",
+  "name": "❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞",
+  "description": "whatsapp multi device bot by GasComIT build with nodejs on baileys",
+  "repository": "https://github.com/GasComIT/Spike",
   "logo": "https://i.imgur.com/GlcMZPx.jpeg",
-  "keywords": ["nodejs", "bot","Rongo","whatsapp bot", "whatsapp automation", "multi device"],
+  "keywords": ["nodejs", "bot","Spike","whatsapp bot", "whatsapp automation", "multi device"],
    "success_url": "/",
   "env": {
     "PORT": {
@@ -27,7 +27,7 @@
      "required": true 
     },
     "PASSWORD": {
-     "description": "Password to deploy this bot, ivailable in GDSC chats (Royce)",
+     "description": "Password to deploy this bot, available in DARK-NET BOTS chats (Royce)",
      "required": true 
     },
     "MONGODB": {
