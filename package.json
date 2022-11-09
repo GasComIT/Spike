@@ -1,6 +1,6 @@
 {
     "name": "spike",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
     "dependencies": {
         "@adiwajshing/baileys": "^4.4.0",
