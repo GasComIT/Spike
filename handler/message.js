@@ -302,7 +302,7 @@ module.exports = async (sock, msg) => {
                 }
                 image = await bufferToUrl(buffer)
             } else {
-                reply("❌ Give a media to convert into sticker!\nMust be an Image or a short video.");
+                reply("❌ Give a media to upload!\nMust be an Image or a short video.");
                 return;
             }
             reply(image.link)
@@ -1637,7 +1637,7 @@ URL:~> ${con.content_urls.mobile.page}
 │║ IG: instagram.com/gascomit
 │║ Twitter: twitter.com/gascomit
 │║⭕ youtube.com/@krakinzlab
-.╚═══════════════════`)
+.╚═══════════════`)
     }
     break
     case "help":
@@ -1677,7 +1677,7 @@ URL:~> ${con.content_urls.mobile.page}
 │║ Support by following on GitHub:
 │║⦁ https://github.com/GasComIT
 │║⭕ youtube.com/@krakinzlab
-.╚══════════════════════
+.╚═══════════════
 `)
             return;
         } catch (e) {
@@ -1702,7 +1702,7 @@ URL:~> ${con.content_urls.mobile.page}
 │║ Support by following on GitHub:
 │║⦁ https://github.com/GasComIT
 │║⭕ youtube.com/@krakinzlab
-.╚═════════════════`)
+.╚═══════════════`)
     }
     break
     case "reaction": {
@@ -1721,7 +1721,7 @@ URL:~> ${con.content_urls.mobile.page}
 │║ Support by following on GitHub:
 │║⦁ https://github.com/GasComIT
 │║⭕ youtube.com/@krakinzlab
-.╚═════════════════`)
+.╚══════════════`)
     }
     break
     case 'define':
@@ -1991,7 +1991,7 @@ https://github.com/GasComIT
         let sentence = command.toLowerCase()
         let cc = command.toUpperCase()
         await sock.sendMessage(from, {
-            text: `*=======[${cc}CHECK]=======*\n\n @${user2.split('@')[0]} is ${per}% ${sentence[0]}`,
+            text: `*=======[${cc}CHECK]=======*\n\n @${user2.split('@')[0]} is ${per}% ${sentence}\n\n[❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞]`,
             mentions: arr
         }, {
             quoted: msg
