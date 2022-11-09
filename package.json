@@ -1,5 +1,5 @@
 {
-    "name": "dsc-rongo",
+    "name": "spike",
     "version": "1.0.0",
     "main": "index.js",
     "dependencies": {
@@ -48,8 +48,8 @@
         "debug": "nodemon --exec \"cls && node .\" --ignore \"*.json\" --ignore \"test/*.js\"",
         "start": "node index.js"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": ["spike"],
+    "author": "GasComIT",
     "license": "ISC",
-    "description": ""
+    "description": "Spike userbot"
 }
