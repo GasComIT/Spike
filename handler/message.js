@@ -4,7 +4,7 @@
 //│║⦁ 𝐠𝐩𝐚𝐲: +254718241545
 //│║⦁ 𝐮𝐩𝐢: krakinzlab@oksbi
 //│║⦁ 𝐠𝐢𝐭: github.com/GasComIT
-//│║⦁ 𝐠𝐫𝐨𝐮𝐩: spike.gascomit.repl.co
+//│║⦁ 𝐠𝐫𝐨𝐮𝐩: ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞.gascomit.repl.co
 //│║⭕ youtube.com/@krakinzlab
 // ╚═════════════════════ 🍃
 // ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞
@@ -49,7 +49,7 @@ const heartbeats = require('heartbeats');
 const sortArray = require('sort-array')
 const ytdl = require('ytdl-core')
 const TD = require('better-tord');
-const name = process.env.NAME || "SPIKE ©GasCoMIT"
+const name = process.env.NAME || "©GasCoMIT"
 let mods = process.env.MODS;
 if (!mods) {
     mods = "254718241545@s.whatsapp.net";
@@ -71,7 +71,7 @@ const color = (text, color) => {
 }
 
 db.on("ready", () => {
-    console.log("Spike Connected to database🍃");
+    console.log("❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ Connected to database🍃");
 });
 
 Array.prototype.random = function () {
@@ -189,7 +189,7 @@ module.exports = async (sock, msg) => {
         }
     }
     if (body.startsWith(prefix) && banned.includes(`${sender}`)) {
-        reply(`Problem !🙂 You are banned from using Spike commands \nMessage owner to be unbanned ❌`)
+        reply(`Problem !🙂 You are banned from using ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ commands \nMessage owner to be unbanned ❌`)
         return;
     }
     ////catch (e) {
@@ -263,7 +263,7 @@ module.exports = async (sock, msg) => {
 │║⦁ Experience:[ ${xp} ]
 │║⦁ *Made with ❤ By ©GasComIT*
 │║⦁ https://github.com/GasComIT
-.╚═════════════════════════════`)
+.╚════════════════`)
     }
     break
     case "upload":
@@ -345,7 +345,7 @@ module.exports = async (sock, msg) => {
             reply("❌ Unable to find any result")
             return;
         }
-        let tex = `☆☆💥 GITHUB SEARCH 💥☆☆\n🔍 Term ~> ${text}\n\n`;
+        let tex = `❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 *GitHub Search* ❞\n🔍 Term ~> ${text}\n\n`;
         for (let i = 0; i < repo.items.length; i++) {
             tex += `🪧 Name ~> ${repo.items[i].name}\n👤 Watchers ~> ${repo.items[i].watchers_count}\n⭐️ Stars ~> ${repo.items[i].stargazers_count}\n📛 Forks ~> ${repo.items[i].forks_count}\n🖥 Description ~> ${repo.items[i].description}\n🌐 Link ~> ${repo.items[i].html_url}\n\n`
         }
@@ -363,7 +363,7 @@ module.exports = async (sock, msg) => {
                 image: {
                     url: data.url
                 },
-                caption: "Your neko Image is here.\n*Spike Signal ©GasComIT*"
+                caption: "Your neko Image is here.\n*❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ Signal ©GasComIT*"
             }, {
                 quoted: msg
             });
@@ -386,7 +386,7 @@ module.exports = async (sock, msg) => {
                 image: {
                     url: data.url
                 },
-                caption: "Your waifu Image is here.\n*Spike signal ©GasComIT*"
+                caption: "Your waifu Image is here.\n*❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal ©GasComIT*"
             }, {
                 quoted: msg
             });
@@ -423,7 +423,7 @@ module.exports = async (sock, msg) => {
         try {
             await sock.sendMessage(from, {
                 image: buffer,
-                caption: "Here you go.\n*Spike signal ©GasComIT"
+                caption: "Here you go.\n*❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal ©GasComIT"
             }, {
                 quoted: msg
             });
@@ -565,10 +565,10 @@ module.exports = async (sock, msg) => {
     case 's': {
         if (text) {
             anu = text.split('|')
-            packName = anu[0] !== '' ? anu[0] : "Spike 🤖 AI"
+            packName = anu[0] !== '' ? anu[0] : "❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞"
             authorName = anu[1] !== '' ? anu[1] : "GasComIT"
         } else {
-            packName = "Spike 🤖 AI";
+            packName = "❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞";
             authorName = "GasComIT";
         }
         const getRandom = (ext) => {
@@ -623,7 +623,7 @@ module.exports = async (sock, msg) => {
                 quality: 40,
             });
         } else {
-            reply("❌ Give a media to convert into sticker!\Must be an Image or a short video 😐.");
+            reply("❌ Give a media to convert into sticker!\nMust be an Image or a short video 😐.");
             return;
         }
         
@@ -644,7 +644,7 @@ module.exports = async (sock, msg) => {
     break
     case 'photo': {
         if (!isQuoted) {
-            reply("❌ Give a sticker to convert into media!\Reply to a sticker only 😐.");
+            reply("❌ Give a sticker to convert into media!\nReply to a sticker only 😐.");
             return;
         }
         const getRandom = (ext) => {
@@ -718,7 +718,7 @@ module.exports = async (sock, msg) => {
                                 image: {
                                     url: img
                                 },
-                                caption: " 🍃 *Spike signal ©GasComIT* 🍃"
+                                caption: " 🍃 *❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal ©GasComIT* 🍃"
                             }, {
                                 quoted: msg
                             }
@@ -753,11 +753,11 @@ module.exports = async (sock, msg) => {
             }
             if (text) {
                 anu = text.split('|')
-                packName = anu[0] !== '' ? anu[0] : "Spike 🤖 AI"
-                authorName = anu[1] !== '' ? anu[1] : "GasComIT"
+                packName = anu[0] !== '' ? anu[0] : "❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞"
+                authorName = anu[1] !== '' ? anu[1] : "©GasComIT"
             } else {
-                packName = "Spike 🤖 AI";
-                authorName = "GasComIT";
+                packName = "❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞";
+                authorName = "©GasComIT";
             }
             
             const sticker = new Sticker(buffer, {
@@ -779,7 +779,7 @@ module.exports = async (sock, msg) => {
     case 'ytsearch':
     case 'yts': {
         if (!text) {
-            reply('Provide a search term!\E.g: How to code in JS ')
+            reply('🥴 Provide a search term!\E.g: How to code in JS ')
             return;
         }
         const term = text;
@@ -787,13 +787,13 @@ module.exports = async (sock, msg) => {
             videos
         } = await yts(term);
         if (!videos || videos.length <= 0) {
-            reply(`No Matching videos found for : *${term}*!!`)
+            reply(`🤨 No Matching videos found for : *${term}*!!`)
             return;
         }
         const length = videos.length < 10 ? videos.length : 10;
-        let tex = `☆☆💥 YOUTUBE SEARCH💥☆☆\n🔍 Term ~> ${term}\n\n`;
+        let tex = `❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 - *YouTube Search* ❞\n🔍 Query ~> ${term}\n\n`;
         for (let i = 0; i < length; i++) {
-            tex += `🌐 Link ~> ${videos[i].url}\n👤 Channel ~> ${videos[i].author.name}\n🖥 Title ~> ${videos[i].title}\n\n*Spike ©GasComIT*`;
+            tex += `🌐 Link ~> ${videos[i].url}\n👤 Channel ~> ${videos[i].author.name}\n🖥 Title ~> ${videos[i].title}\n\n`;
         }
         reply(tex)
         return;
@@ -817,7 +817,7 @@ module.exports = async (sock, msg) => {
             let infoYt = await ytdl.getInfo(urlYt);
             //30 MIN
             if (infoYt.videoDetails.lengthSeconds >= 1800) {
-                reply(`❌ Audio too big!\I'm Unable to download big files.`);
+                reply(`❌ Audio too big!\I'm Unable to download big files. 🤥`);
                 return;
             }
             const getRandom = (ext) => {
@@ -853,7 +853,7 @@ module.exports = async (sock, msg) => {
                     }
                 );
             } else {
-                reply(`❌ File size bigger than 40mb.\nI'm unable to download large files.`);
+                reply(`❌ File size bigger than 40mb.\nI'm unable to download large files.🤥`);
             }
             fs.unlinkSync(`./${randomName}`);
         } catch (e) {
@@ -883,7 +883,7 @@ module.exports = async (sock, msg) => {
         }
         arr.push(sender)
         arr.push(user2)
-        let caption = `\t❣️ *Matchmaking...* ❣️ \n`
+        let caption = `\t❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ ❣️ *Matchmaker* ❣️ \n`
         caption += `\t\t---------------------------------\n`
         caption += `@${sender.split('@')[0]}  x  @${user2.split('@')[0]}\n`
         caption += `\t\t---------------------------------\n`
@@ -917,7 +917,7 @@ module.exports = async (sock, msg) => {
             let infoYt = await ytdl.getInfo(urlYt);
             //30 MIN
             if (infoYt.videoDetails.lengthSeconds >= 1800) {
-                reply(`❌ Video file too big!`);
+                reply(`❌ Video file too big! 😀`);
                 return;
             }
             let titleYt = infoYt.videoDetails.title;
@@ -1020,7 +1020,7 @@ module.exports = async (sock, msg) => {
     case "remove":
     case "rm": {
         if (!isGroupAdmins) return reply('This is an admin command')
-        if (!isBotGroupAdmins) return reply('Spike signal says: Bot is not admin')
+        if (!isBotGroupAdmins) return reply('❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal says: Bot is not admin')
         try {
             user = msg.message.extendedTextMessage.contextInfo.participant || mentioned[0] || undefined
         } catch {
@@ -1032,21 +1032,21 @@ module.exports = async (sock, msg) => {
                 [user],
             "remove"
         );
-        return reply("✔ Number removed from group!");
+        return reply("✔ Number removed from group!\nLet there be peace 😉 ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞");
         
     }
     break
     case "antilink": {
         if (!text) return reply('Please put the option name')
         if (!isGroupAdmins) return reply('This is an admin command')
-        if (!isBotGroupAdmins) return reply('Spike signal says: Bot is not admin')
+        if (!isBotGroupAdmins) return reply('❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal says: Bot is not admin')
         switch (text) {
         case "on": {
             let its = await db.get('antilink') || []
             
-            if (its.includes(from)) return reply("Already registered")
+            if (its.includes(from)) return reply("❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal says: Already registered")
             await db.push('antilink', from)
-            return reply('Antilink has been register!')
+            return reply('❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal says: Antilink has been registered!')
         }
         break
         case "off": {
@@ -1064,7 +1064,7 @@ module.exports = async (sock, msg) => {
     break
     case "event": {
         if (!text) return reply('Please put the option name\nE.g: Event on/off.')
-        if (!isGroupAdmins) return reply('This is an admin command!😐')
+        if (!isGroupAdmins) return reply('This is an admin command!😐\nAvoid trouble if you are not an admin.  ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞')
         switch (text) {
         case "on": {
             let its = await db.get('event') || []
@@ -1089,7 +1089,7 @@ module.exports = async (sock, msg) => {
     break
     case "ban": {
         if (!isOwner) {
-            reply("This command is For Owner only !😐")
+            reply("This command is For Owner only !😐\nAvoid trouble if you are not the owner [❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞]")
             return;
         }
         arr = []
@@ -1114,7 +1114,7 @@ module.exports = async (sock, msg) => {
     break
     case "unban": {
         if (!isOwner) {
-            reply("This command if for Owner only! 😐")
+            reply("This command if for Owner only! 😐\nAvoid trouble if your arw not the owner. ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞")
             return;
         }
         arr = []
@@ -1142,11 +1142,11 @@ module.exports = async (sock, msg) => {
             .get(`https://nekos.life/api/v2/fact`)
             .then((response) => {
                 // console.log(response);
-                const tet = `🍃 Fact:~> *By ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞*\n${response.data.fact}`
+                const tet = `🍃 Fact:~> *By ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞*\n\n${response.data.fact}`
                 reply(tet)
             })
             .catch((err) => {
-                reply(`✖  An error occurred, \n Please report that command to \n*GasComIT Developers*.`)
+                reply(`✖  An error occurred, \n Please report that command to \n*GasComIT Developers*. ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞`)
             })
     }
     break
@@ -1155,7 +1155,7 @@ module.exports = async (sock, msg) => {
             .get(`https://api.adviceslip.com/advice`)
             .then((response) => {
                 // console.log(response);
-                const tet = `Advice for you by *Spike AI*\n:~> ${response.data.slip.advice}`
+                const tet = `Advice for you by *❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ AI*\n:~> ${response.data.slip.advice}`
                 reply(tet)
             })
             .catch((err) => {
@@ -1196,14 +1196,22 @@ module.exports = async (sock, msg) => {
             
             if (its.includes(from)) return reply("Already registered")
             await db.push('nsfw', from)
-            return reply('🔞 NSFW has been enabked!\nPlease dont get horny')
+            return reply(`┌╔═『 ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ 🔞 』⦁══
+│║ NSFW has been enabled!
+│║ Please dont get horny 🤯
+│║⦁---⭕16+ zone ⭕--- 
+.╚════════════════`)
         }
         break
         case "off": {
             let its = await db.get('nsfw') || []
-            if (!its.includes(from)) return reply('🔞NSFW is already off')
+            if (!its.includes(from)) return reply('🔞NSFW is already turned off 🥴')
             await db.pull('nsfw', from)
-            return reply("🔞 NSFW has been trurned off here.\nHope no one was horny 😐")
+            return reply(`┌╔═『 ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ 🔞 』⦁══
+│║ NSFW has been disabled!
+│║ hope no one was horny 😐
+│║⦁---⭕16+ zone ⭕--- 
+.╚════════════════`)
         }
         break
         default:
@@ -1215,7 +1223,7 @@ module.exports = async (sock, msg) => {
     case 'wiki':
     case 'wikipedia': {
         try {
-            if (!text) return reply(`Provide the term to search, e.g *Rongo university* `)
+            if (!text) return reply(`Provide the term to search,\nE.g *Rongo university* `)
             const con = await wiki.summary(text);
             const tex = `Title:~> ${con.title}
                   
@@ -1240,7 +1248,7 @@ URL:~> ${con.content_urls.mobile.page}
             let result = `*${groupName}-Members tag by ${senderName}*\n\n`
             for (let i = 0; i < groupMembers.length; i++) {
                 let no = i + 1
-                result += `➼ ${no}| @${groupMembers[i].id.split("@")[0]}\n`
+                result += `│║⦁ ➼ ${no}| @${groupMembers[i].id.split("@")[0]}\n`
                 mention.push(groupMembers[i].id)
             }
             await sock.sendMessage(from, {
@@ -1254,7 +1262,7 @@ URL:~> ${con.content_urls.mobile.page}
             let result = `*${groupName}-Members tag only admins by ${senderName}*\n\n`
             for (let i = 0; i < groupAdmins.length; i++) {
                 let no = i + 1
-                result += `➼ ${no}| @${groupAdmins[i].split("@")[0]}\n`
+                result += `│║⦁ ➼ ${no}| @${groupAdmins[i].split("@")[0]}\n`
                 mention.push(groupAdmins[i])
             }
             await sock.sendMessage(from, {
@@ -1284,12 +1292,15 @@ URL:~> ${con.content_urls.mobile.page}
             by: 'xp',
             order: 'desc'
         })
-        let result = `☆☆💥 LEADERBOARD💥☆☆\n*❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ AI By GasComIT*\n🌐 Type ~> Experience\n\n`
+        let result = `❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 *LEADERBOARD* ❞\n*---❝ ⒸWa-Bot ❞  By ©GasComIT---*\n🌐 Type ~> Experience\n`
         for (let i = 0; i < 10; i++) {
             mention.push(arr[i].id)
             let character = await db.get(`${arr[i].id}.marry`) || "None"
             let no = i + 1
-            result += `👤 Person ~> @${arr[i].id.split("@")[0]}\n🪧 Place ~> ${no}\n🖥 Experience ~> ${arr[i].xp}\n\n`
+            result += `│║⦁ 👤 Person : @${arr[i].id.split("@")[0]}
+            │║⦁ 🪧 Place : ${no}
+            │║⦁ 🖥 Experience : ${arr[i].xp}
+            │║⦁ \n`
         }
         //reply(result)
         await sock.sendMessage(from, {
@@ -1302,7 +1313,7 @@ URL:~> ${con.content_urls.mobile.page}
     }
     break
     case "anime": {
-        if (!text) return reply("Please provite the anime name")
+        if (!text) return reply("Please provide the anime name")
         const {
             data
         } = await axios.get(
@@ -1346,21 +1357,21 @@ URL:~> ${con.content_urls.mobile.page}
             .catch((err) => {
                 return reply("Unable to find the anime")
             });
-        let txt = `*${data.data.title}*
-
-*Title En:* ${data.data.title_english}
-*Title Jp:* ${data.data.title_japanese}
-*Type:* ${data.data.type}
-*Source:* ${data.data.source}
-*Status:* ${data.data.status}
-*Airing:* ${data.data.airing}
-*Aired:* ${data.data.aired.from}
-*Duration:* ${data.data.duration}
-*Rating:* ${data.data.rating}
-*Score:* ★${data.data.score}
-*Rank:* ${data.data.rank}
-*Popularity:* ${data.data.popularity}
-*Members:* ${data.data.members}
+        let txt = `┌╔═『 *${data.data.title}*』⦁══
+│║⦁ *Title En:* ${data.data.title_english}
+│║⦁ *Title Jp:* ${data.data.title_japanese}
+│║⦁ *Type:* ${data.data.type}
+│║⦁ *Source:* ${data.data.source}
+│║⦁ *Status:* ${data.data.status}
+│║⦁ *Airing:* ${data.data.airing}
+│║⦁ *Aired:* ${data.data.aired.from}
+│║⦁ *Duration:* ${data.data.duration}
+│║⦁ *Rating:* ${data.data.rating}
+│║⦁ *Score:* ★${data.data.score}
+│║⦁ *Rank:* ${data.data.rank}
+│║⦁ *Popularity:* ${data.data.popularity}
+│║⦁ *Members:* ${data.data.members}
+.╚════════════════
 
 *Synopsis:* ${data.data.synopsis}
 
@@ -1422,11 +1433,12 @@ URL:~> ${con.content_urls.mobile.page}
                 return reply(`Couldn't find any character id.`);
             });
         
-        let txt = `*${data.data.name}*\n\n`;
-        txt += `*Name:* ${data.data.name}\n`;
-        txt += `*Kanji name:* ${data.data.name_kanji}\n`;
-        txt += `*Nicknames:* ${data.data.nicknames.join(", ")}\n`;
-        txt += `*Favorites:* ${data.data.favorites}\n\n`;
+        let txt = `┌╔═══『 *Name: ${data.data.name}* 』⦁══\n`;
+        txt += `│║⦁ *Name:* ${data.data.name}\n`;
+        txt += `│║⦁ *Kanji name:* ${data.data.name_kanji}\n`;
+        txt += `│║⦁ *Nicknames:* ${data.data.nicknames.join(", ")}\n`;
+        txt += `│║⦁ *Favorites:* ${data.data.favorites}
+.╚════════════════\n\n`;
         txt += `*Description:* ${data.data.about}\n`
         txt += `🌐 *URL:* ${data.data.url}\n\n`;
         return sock.sendMessage(from, {
@@ -1444,11 +1456,12 @@ URL:~> ${con.content_urls.mobile.page}
         try {
             let data = await characterClient.getRandomCharacter();
             
-            let txt = `*${data.name}*\n\n`;
-            txt += `*Name:* ${data.name}\n*Mal_ID:* ${data.mal_id}\n`;
-            txt += `*Kanji name:* ${data.name_kanji}\n`;
-            txt += `*Nicknames:* ${data.nicknames.join(", ")}\n`;
-            txt += `*Favorites:* ${data.favorites}\n\n`;
+            let txt = `┌╔═══『 *Name: ${data.name}* 』⦁══\n`;
+            txt += `│║⦁ *Name:* ${data.name}\n*Mal_ID:* ${data.mal_id}\n`;
+            txt += `│║⦁ *Kanji name:* ${data.name_kanji}\n`;
+            txt += `│║⦁ *Nicknames:* ${data.nicknames.join(", ")}\n`;
+            txt += `│║⦁ *Favorites:* ${data.favorites}
+.╚════════════════\n\n`;
             txt += `*Description:* ${data.about}\n`
             txt += `🌐 *URL:* ${data.url}\n\n`;
             return sock.sendMessage(from, {
@@ -1467,19 +1480,20 @@ URL:~> ${con.content_urls.mobile.page}
     break
     case "open": {
         if (!isGroupAdmins) return reply('This is an admin command')
-        if (!isBotGroupAdmins) return reply('Spike signal says Bot is not admin')
+        if (!isBotGroupAdmins) return reply('❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal says: Bot is not admin')
         if (!groupMetadata) return reply('Try Again!')
         const {
             announce
         } = await sock.groupMetadata(from)
-        if (!announce) return reply('Already opened!')
+        if (!announce) return reply('❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal says: Already opened!')
         await sock.groupSettingUpdate(from, 'not_announcement')
-        reply("Spike siganl says: Group opened")
+        reply("❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ siganl says: Group opened")
     }
     break
-    case "close": {
+    case "close":
+        {
         if (!isGroupAdmins) return reply('This is an admin command')
-        if (!isBotGroupAdmins) return reply('Spike signal says: Bot is not admin')
+        if (!isBotGroupAdmins) return reply('❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal says: Bot is not admin')
         if (!groupMetadata) return reply('Try Again!')
         const {
             announce
@@ -1530,7 +1544,7 @@ URL:~> ${con.content_urls.mobile.page}
     break
     case "demote": {
         if (!isGroupAdmins) return reply('This is an admin command')
-        if (!isBotGroupAdmins) return reply('Spike siganl says: Bot is not admin')
+        if (!isBotGroupAdmins) return reply('❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ siganl says: Bot is not admin')
         try {
             user = msg.message.extendedTextMessage.contextInfo.participant || mentioned[0] || undefined
         } catch {
@@ -1550,7 +1564,7 @@ URL:~> ${con.content_urls.mobile.page}
     break
     case "promote": {
         if (!isGroupAdmins) return reply('This is an admin command')
-        if (!isBotGroupAdmins) return reply('Spike signal says: Bot is not admin')
+        if (!isBotGroupAdmins) return reply('❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ signal says: Bot is not admin')
         try {
             user = msg.message.extendedTextMessage.contextInfo.participant || mentioned[0] || undefined
         } catch {
@@ -1587,7 +1601,7 @@ URL:~> ${con.content_urls.mobile.page}
                 image: {
                     url: url
                 },
-                caption: "Your horny card here."
+                caption: "Your horny card here.\nMade by ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞"
             }, {
                 quoted: msg
             });
@@ -1607,7 +1621,20 @@ URL:~> ${con.content_urls.mobile.page}
                 data: data
             } = await axios.get(`https://pokeapi.co/api/v2/pokemon/${text}`)
             if (!data.name) return reply(`❌ No such pokemon`)
-            let yu = `*Name: ${data.name}*\n*Pokedex ID: ${data.id}*\n*Weight: ${data.weight}*\n*Height: ${data.height}*\n*Base Experience: ${data.base_experience}*\n*Abilities: ${data.abilities[0].ability.name}, ${data.abilities[1].ability.name}*\n*Type: ${data.types[0].type.name}*\n*HP: ${data.stats[0].base_stat}*\n*Attack: ${data.stats[1].base_stat}*\n*Defense: ${data.stats[2].base_stat}*\n*Special Attack: ${data.stats[3].base_stat}*\n*Special Defense:${data.stats[4].base_stat}*\n*Speed: ${data.stats[5].base_stat}*\n`
+            let yu = `┌╔═══『 *Name: ${data.name}* 』⦁══
+│║⦁ *Pokedex ID: ${data.id}*
+│║⦁ *Weight: ${data.weight}*
+│║⦁ *Height: ${data.height}*
+│║⦁ *Base Experience: ${data.base_experience}*
+│║⦁ *Abilities: ${data.abilities[0].ability.name}, ${data.abilities[1].ability.name}*
+│║⦁ *Type: ${data.types[0].type.name}*
+│║⦁ *HP: ${data.stats[0].base_stat}*
+│║⦁ *Attack: ${data.stats[1].base_stat}*
+│║⦁ *Defense: ${data.stats[2].base_stat}*
+│║⦁ *Special Attack: ${data.stats[3].base_stat}*
+│║⦁ *Special Defense:${data.stats[4].base_stat}*
+│║⦁ *Speed: ${data.stats[5].base_stat}*
+.╚════════════════\n`
             sock.sendMessage(from, {
                 image: {
                     url: data.sprites.front_default
@@ -1623,10 +1650,10 @@ URL:~> ${con.content_urls.mobile.page}
     }
     break
     case "owner": {
-        reply(`👋 Hi ${senderName}, I'm ${name} [❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞] ♡! 
-💡 *PREFIX:* ${prefix} *Made with ❤ by GasComIT*
+        reply(`👋 Hi ${senderName}, I'm ${name} ♡! 
+💡 *PREFIX:* ${prefix} *❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ by GasComIT*
 
-┌╔═══════『 *Owner Info* 』⦁══
+┌╔═══『 *Owner Info* 』⦁══
 │║ *Dev:* Benson Mugwe 
 │║ A 23 yrs old programmer & student
 │║ At Rongo Uni, taking Comp science
@@ -1637,21 +1664,34 @@ URL:~> ${con.content_urls.mobile.page}
 │║ IG: instagram.com/gascomit
 │║ Twitter: twitter.com/gascomit
 │║⭕ youtube.com/@krakinzlab
-.╚═══════════════`)
+.╚════════════════`)
+    }
+    break
+    case "alive": {
+        let ram_size = [Math.floor(Math.random() * 64)]
+        let dyt = Date.now();
+        reply(`👋 Hi ${senderName}  
+┌╔═══『 ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ 』⦁══
+│║ Status ⦁ online
+│║ Speed  ⦁ 43 ms
+│║ RAM    ⦁ ${ram_size}/64GB
+│║ Time   ⦁ ${dyt}
+│║ https://GitHub.com/GasComIT
+.╚════════════════`)
     }
     break
     case "help":
     case "menu": {
         try {
-            reply(`👋 Hi ${senderName}, I'm ${name} [❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞] ♡! 
+            reply(`👋 Hi ${senderName}, I'm ${name} ♡! 
 
-💡 *PREFIX:* ${prefix} *Made with ❤ by GasComIT*
+💡 *PREFIX:* ${prefix} *❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ by GasComIT*
 
-┌╔══『 *COMMAND LIST* 』⦁═════
+┌╔══『 *COMMAND LIST* 』⦁════
 │║⦁------- 👑『 *Owner* 』---⦁
 │║⦁ ban, unban, bc, join, mode
 │║⦁------- 🖥 『 *General* 』---⦁
-│║⦁ hi, del, delete, leaderboard, lb
+│║⦁ hi, del, delete, lb, alive
 │║⦁-------- 👤『 *User* 』---⦁---⦁
 │║⦁ profile, rank, check, sr, owner
 │║⦁-------- 📥『 *Media* 』---⦁
@@ -1660,7 +1700,7 @@ URL:~> ${con.content_urls.mobile.page}
 │║⦁-------- ⭐️『 *Fun* 』---⦁
 │║⦁ reaction, truth, sadcat, dare
 │║⦁ advise, fact, check, ship, meme
-│║⦁ flip, solemate, hornycard
+│║⦁ flip, solemate, hornycard, hc
 │║⦁-------- 💮『 *Weeb* 』---⦁
 │║⦁ anime, aid, charid, pokemon 
 │║⦁ character, haigusha, waifu, neko
@@ -1677,7 +1717,7 @@ URL:~> ${con.content_urls.mobile.page}
 │║ Support by following on GitHub:
 │║⦁ https://github.com/GasComIT
 │║⭕ youtube.com/@krakinzlab
-.╚═══════════════
+.╚════════════════════
 `)
             return;
         } catch (e) {
@@ -1687,11 +1727,11 @@ URL:~> ${con.content_urls.mobile.page}
     }
     break
     case "check": {
-        reply(`👋 Hi ${senderName}, I'm ${name} [❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞] ♡! 
+        reply(`👋 Hi ${senderName}, I'm ${name} ♡! 
 
-💡 *PREFIX:* ${prefix} *Made with ❤ by GasComIT*
+💡 *PREFIX:* ${prefix} *❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ by GasComIT*
 
-┌╔═════『 *CHECK LIST* 』⦁══
+┌╔═══『 *CHECK LIST* 』⦁══
 │║⦁  awesome, great, character 
 │║⦁  lesbian, gay, horny
 │║⦁  pretty, cute, beautiful
@@ -1706,9 +1746,9 @@ URL:~> ${con.content_urls.mobile.page}
     }
     break
     case "reaction": {
-        reply(`👋 Hi ${senderName}, I'm ${name} [❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞] ♡! 
+        reply(`👋 Hi ${senderName}, I'm ${name} ♡! 
 
-💡 *PREFIX:* ${prefix} *Made with ❤ by GasComIT*
+💡 *PREFIX:* ${prefix} *❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ by GasComIT*
 
 ┌╔═『 *REACTION LIST* 』⦁══
 │║⦁ cry, kiss, bully, hug, dane
@@ -1721,7 +1761,7 @@ URL:~> ${con.content_urls.mobile.page}
 │║ Support by following on GitHub:
 │║⦁ https://github.com/GasComIT
 │║⭕ youtube.com/@krakinzlab
-.╚══════════════`)
+.╚════════════════`)
     }
     break
     case 'define':
@@ -1832,7 +1872,7 @@ Definition:~> ${def.data.list[0].definition
             bio = 'None'
         }
         let ban = banned.includes(sender) || false
-        let contant = `*User Profile* ✨️ \n\n❢ Name ❢: ${senderName}\n\n➽ Exp ➽: ${exp} / ${required}\n\n◔ Level ◔: ${level}\n\n♕ Role ♕: ${role}\n\n⎙ User Notice ⎙: ${bio}\n\n⊝ Clan ⊝: ${groupName}\n\n♛ Admin ♛: ${isGroupAdmins}\n\n⌀ Ban ⌀: ${ban}\n`
+        let contant = `*User Profile* ✨️ \n\n❢ Name ❢: ${senderName}\n\n➽ Exp ➽: ${exp} / ${required}\n\n◔ Level ◔: ${level}\n\n♕ Role ♕: ${role}\n\n⎙ User Notice ⎙: ${bio}\n\n⊝ Clan ⊝: ${groupName}\n\n♛ Admin ♛: ${isGroupAdmins}\n\n⌀ Ban ⌀: ${ban}\nBy ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ AutoLM\n`
         return sock.sendMessage(from, {
             image: {
                 url: ppuser
@@ -1918,17 +1958,16 @@ Definition:~> ${def.data.list[0].definition
         } catch {
             ppuser = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMxMUXFtd5GrFkxyrU-f5zA2IH8MZ-U-cFKg&usqp=CAU'
         }
-        let card = `❢ Name ❢: ${senderName}
-
-⊷ User xp ⊷: ${exp} / ${required}
-
-❈ Stage ❈: ${role}
-
-✾ Level ✾ ${level}
-
-Support by following on GitHub:
-https://github.com/GasComIT
-⭕ youtube.com/@krakinzlab`
+        let card = `┌╔═『 ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ *Rank Card*』⦁══
+│║⦁ ❢ Name ❢: ${senderName}
+│║⦁ ⊷ User xp ⊷: ${exp} / ${required}
+│║⦁ ❈ Stage ❈: ${role}
+│║⦁ ✾ Level ✾ ${level}
+│║⦁--------『 *GasComIT* 』---⦁ 
+│║ Support by following on GitHub:
+│║ https://github.com/GasComIT
+│║ ⭕ youtube.com/@krakinzlab
+.╚════════════════`
         const rank = new canvacord.Rank()
             .setAvatar(ppuser)
             .setLevel(level)
@@ -1991,7 +2030,7 @@ https://github.com/GasComIT
         let sentence = command.toLowerCase()
         let cc = command.toUpperCase()
         await sock.sendMessage(from, {
-            text: `*=======[${cc}CHECK]=======*\n\n @${user2.split('@')[0]} is ${per}% ${sentence}\n\n[❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞]`,
+            text: `*=======[${cc}CHECK]=======*\n\n @${user2.split('@')[0]} is ${per}% ${sentence[0]}`,
             mentions: arr
         }, {
             quoted: msg
@@ -2032,15 +2071,14 @@ https://github.com/GasComIT
                 data
             } = await axios.get(`https://meme-api.herokuapp.com/gimme/${sr}`);
             if (!nsfw.includes(from) && data.nsfw) return reply(`Hentai is not registered on ${groupName}`)
-            const xz = `Title : ${data.title} 
-
-Postlink : ${data.postLink}     
-
-Subreddit: ${data.subreddit}
-
-Nsfw : ${data.nsfw}
-
-Spoiler: ${data.spoiler}`
+            const xz = `┌╔═『 ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ ${data.subreddit}』⦁══
+│║⦁ Title : ${data.title} 
+│║⦁ Postlink : ${data.postLink}     
+│║⦁ Subreddit: ${data.subreddit}
+│║⦁ Nsfw : ${data.nsfw}
+│║⦁ Spoiler: ${data.spoiler}
+│║⦁------❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞-----
+.╚════════════════`
             
             await sock.sendMessage(from, {
                 image: {
@@ -2072,20 +2110,25 @@ Spoiler: ${data.spoiler}`
         let res = groups.map(v => v.id)
         reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`)
         for (let i of res) {
-            let txt = `🔰</ *${name} Broadcast* >🔰\n\n🏮 Message:~> ${text}\n\nAll chats broadcasted by *SPIKE*`
+            let txt = `🔰</ *${name} Broadcast* >🔰\n\n🏮 Message:~> ${text}\n\nAll chats broadcasted by ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞`
             await sock.sendMessage(i, {
                 image: {
-                    url: "https://i.pinimg.com/736x/3a/15/a3/3a15a349b478f236f026cb52ab7bc984.jpg"
+                    url: "https://i.imgur.com/73j3KQg.jpeg"
                 },
                 caption: `${txt}`
             })
         }
-        reply(`Successfuly Broadcasted in ${res.length} Groups\n\nPowered by *SPIKE AI*`)
+        reply(`${name} Successfuly Broadcasted to ${res.length} Groups 🧐\n\nPowered by ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞`)
     }
     break
     default:
         if (body.startsWith(prefix)) {
-            reply(`BAKA!! This is an unlisted command, read the commands in ${prefix}help \nTo help add this command report to \nGasComIT developers.『 *SPIKE* 』`)
+            reply(`┌╔═『 ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞ ERROR 』⦁══
+│║⦁ BAKA!! This is an unlisted command,
+│║⦁ read the commands in ${prefix}help
+│║⦁ To help add this command report to
+│║⦁ GasComIT developers.『 *❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞* 』
+.╚════════════════`)
         }
         break
     }
@@ -2098,7 +2141,7 @@ Spoiler: ${data.spoiler}`
 //│║⦁ 𝐠𝐩𝐚𝐲: +254718241545
 //│║⦁ 𝐮𝐩𝐢: krakinzlab@oksbi
 //│║⦁ 𝐠𝐢𝐭: github.com/GasComIT
-//│║⦁ 𝐠𝐫𝐨𝐮𝐩: spike.gascomit.repl.co
+//│║⦁ 𝐠𝐫𝐨𝐮𝐩: ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞.gascomit.repl.co
 //│║⭕ youtube.com/@krakinzlab
 // ╚═════════════════════
 // ❝ Ⓒ𝐒𝐩𝐢𝐤𝐞 ❞
